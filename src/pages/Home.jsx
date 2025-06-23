@@ -1,6 +1,6 @@
 import SocialLinks from "../components/SocialLinks";
-import bgCyber from "../images/bg-cyber.jpg"; // Correct relative import
-import profileImg from "../images/kiri.jpg";   // Correct relative import
+import bgCyber from "../images/bg-cyber.jpg";
+import profileImg from "../images/kiri.jpg"; 
 
 export default function Home() {
   return (

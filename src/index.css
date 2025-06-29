@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
 @import "tailwindcss";
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #0d1117; /* GitHub dark background */
+  color: #c9d1d9; /* GitHub light text */
+}

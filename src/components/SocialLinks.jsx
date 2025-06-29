@@ -4,7 +4,7 @@ import AniListIcon from "../images/anilist.svg?react";
 
 const socials = [
   { name: "GitHub", url: "https://github.com/Kirit0me", icon: <FaGithub /> },
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/prabhav-agarwal-a7186aa0/", icon: <FaLinkedin /> },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/kirit0me/", icon: <FaLinkedin /> },
   { name: "LeetCode", url: "https://leetcode.com/u/Kiritome/", icon: <LeetCodeIcon className="w-6 h-6 stroke-current fill-none" /> },
   { name: "AniList", url: "https://anilist.co/user/Kirit0me/", icon: <AniListIcon className="w-6 h-6 stroke-current fill-none" /> },
   { name: "Email", url: "mailto:prabhavagarwal444@gmail.com", icon: <FaEnvelope /> },

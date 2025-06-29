@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Skills", path: "/skills" },
   { name: "Projects", path: "/projects" },
   // { name: "Blogs", path: "/blogs" },
-  { name: "Contact", path: "/contact" },
+  // { name: "Contact", path: "/contact" },
 ];
 
 export default function Navbar() {
@@ -29,9 +29,11 @@ export default function Navbar() {
             <li key={link.name}>
               <Link
                 to={link.path}
-                className={`hover:text-pink-400 transition ${
-                  location.pathname === link.path ? "underline decoration-green-400 font-bold" : ""
-                }`}
+                className={`px-3 py-2 rounded-md transition ${
+                    location.pathname === link.path
+                      ? "text-green-400 bg-green-900/30 ring-1 ring-green-400"
+                      : "text-green-300 hover:text-pink-400"
+                  }`}
               >
                 {link.name}
               </Link>
@@ -54,9 +56,11 @@ export default function Navbar() {
             <li key={link.name}>
               <Link
                 to={link.path}
-                className={`block py-2 hover:text-pink-400 transition ${
-                  location.pathname === link.path ? "underline decoration-green-400" : ""
-                }`}
+               className={`block px-3 py-2 rounded-md transition ${
+                    location.pathname === link.path
+                      ? "text-green-400 bg-green-900/30 ring-1 ring-green-400"
+                      : "text-green-300 hover:text-pink-400"
+                  }`}
                 onClick={() => setMenuOpen(false)} // close menu on click
               >
                 {link.name}

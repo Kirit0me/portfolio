@@ -43,7 +43,7 @@ export default function Home() {
           alt="Kirit0me"
           className="w-32 h-32 rounded-full border-4 border-green-400 shadow-lg mb-4 object-cover"
         />
-        <h1 className="text-4xl font-bold mb-2 mt-4 text-green-400 drop-shadow">
+        <h1 className="text-4xl font-bold font-mono mb-2 mt-4 text-green-400 drop-shadow">
           Hi, I'm <span className="text-pink-400">{text}</span>
           <span className="inline-block w-1 h-8 bg-green-400 ml-1 animate-pulse"></span>
           <span className="inline-block ml-1 align-middle animate-bounce">👾</span>
